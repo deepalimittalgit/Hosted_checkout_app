@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+#card-errors {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #dc3545!important
+}
+
+.App-header {
+  background-color: #280;
+  #min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#main-body-container {
+  -webkit-box-pack: center !important;
+  -webkit-box-direction: normal !important;
+  -webkit-box-orient: horizontal !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  background: #280 !important;
+  color: #fff !important;
+  font-size: 30px;
+}
+.title{
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#page-container{
+  background-color: #280;
+  color: #fff;
+  height: 100vh;
+}
+
+/*Top Header container */
+#top-header-container{
+  border-bottom: 1px solid;
+  margin: 0 20px;
+  height: 7%;
+}
+h4.MuiTypography-root {
+  margin: 10px !important;
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+/*Top Header container */
+
+.FormGroup {
+  margin: 0;
+  padding: 5px 0;
+  border-style: none;
+  will-change: opacity, transform;
+}
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.MuiButton-root {
+  margin: 20px !important;
+  min-width: 250px !important;
+}

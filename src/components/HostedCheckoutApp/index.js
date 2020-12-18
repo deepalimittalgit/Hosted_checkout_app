@@ -72,7 +72,7 @@ const IOSSwitch = withStyles((theme) => ({
     );
 });
 
-const TEST_ENV = ['dev', 'stage', 'sandbox'];
+const TEST_ENV = ['sandbox'];
 const DEFAULT_AMOUNT_DISPLAY_LIST = [
     {
         value: 2500,
@@ -100,7 +100,7 @@ const INITIAL_VALUES = {
     AMT_VALUE: DEFAULT_AMOUNT_DISPLAY_LIST[0].value,
     ANONYMOUS_CHECKED: false,
     TEST_TOGGLE_MODE: false,
-    TEST_ENVIRONMENT: TEST_ENV[2]
+    TEST_ENVIRONMENT: TEST_ENV[0]
 }
 
 const useStyles = makeStyles((theme) => ({
